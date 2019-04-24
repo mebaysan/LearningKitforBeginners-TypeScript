@@ -1,0 +1,7 @@
+npm install -g typescript (npm kullanmak için nodejs yüklü olması gerekmektedir)
+
+tsc dosyaAdi.ts -> dosyayı js formatına compile eder
+
+npm install -g nodemon -> paketleri izlememize yarar, tsc ile ts dosyamızı compile ederiz ve nodemon ile js dosyasını izlemeye başlarız.
+
+nodemon dosyaAdi.js -> paketleri izlemeye başlar, her yeni compile edişimizde bize kodun çıktısını verir.
